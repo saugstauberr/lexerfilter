@@ -1,8 +1,9 @@
+import java.io.IOException;
 import java.util.Scanner;
 import java.util.logging.Filter;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner reader = new Scanner(System.in);
         FilterTime time = new FilterTime();
         FilterIP ip = new FilterIP();
