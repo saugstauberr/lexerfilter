@@ -11,10 +11,10 @@ public class Main {
         String response = reader.next();
         switch(response) {
             case "IP":
-                System.out.println(ip.GiveIP());
+                System.out.println(ip.GiveIP("src/main/resources/Text.txt"));
                 return;
             case "Time":
-                System.out.println(time.GiveTime());
+                System.out.println(time.GiveTime("src/main/resources/Text.txt"));
         }
         reader.close();
     }

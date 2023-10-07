@@ -1,4 +1,6 @@
-package grammar.test;// Generated from C:/Users/marti/Desktop/Sonstige Projekte/lexerfilter/src/main/antlr4/test/Graphics.g4 by ANTLR 4.13.1
+package grammar.test;// Generated from /Users/martinschmidt/Documents/Development/LexerFilter/src/main/antlr4/test/Graphics.g4 by ANTLR 4.13.1
+import grammar.test.GraphicsListener;
+import grammar.test.GraphicsVisitor;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -102,7 +104,7 @@ public class GraphicsParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_file; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof GraphicsListener ) ((GraphicsListener)listener).enterFile(this);
+			if ( listener instanceof GraphicsListener) ((GraphicsListener)listener).enterFile(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
@@ -171,7 +173,7 @@ public class GraphicsParser extends Parser {
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof GraphicsVisitor ) return ((GraphicsVisitor<? extends T>)visitor).visitCommand(this);
+			if ( visitor instanceof GraphicsVisitor) return ((GraphicsVisitor<? extends T>)visitor).visitCommand(this);
 			else return visitor.visitChildren(this);
 		}
 	}

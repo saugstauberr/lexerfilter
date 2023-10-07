@@ -1,5 +1,5 @@
 public class FilterIP {
-    public String GiveIP() {
+    public String GiveIP(String filePath) {
         String ip = "IPS HERE";
 
         return ip;

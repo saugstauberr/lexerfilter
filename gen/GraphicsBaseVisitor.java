@@ -1,4 +1,4 @@
-// Generated from C:/Users/marti/Desktop/Sonstige Projekte/lexerfilter/src/main/antlr4/test/Graphics.g4 by ANTLR 4.13.1
+// Generated from /Users/martinschmidt/Documents/Development/LexerFilter/src/main/antlr4/test/Graphics.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
 /**
